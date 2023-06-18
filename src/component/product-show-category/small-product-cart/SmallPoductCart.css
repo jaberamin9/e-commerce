@@ -1,0 +1,119 @@
+.product-card-s {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 240px;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.img-box-s {
+    --tw-bg-opacity: 1;
+    background-color: rgb(248 250 252/var(--tw-bg-opacity));
+    border-radius: 1.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.img-re-s {
+    width: 100%;
+    height: 0;
+    display: flex;
+    position: relative;
+    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+    --tw-aspect-w: 1;
+    --tw-aspect-h: 1;
+}
+
+.img-cover-s {
+    object-fit: cover;
+    max-width: 100%;
+    display: block;
+    vertical-align: middle;
+}
+
+.bottom-content-s {
+    padding-top: 1.25rem;
+    padding-bottom: 0.625rem;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+}
+
+.top-content-s {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.product-card-title-s {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.product-card-p-s {
+    --tw-text-opacity: 1;
+    color: rgb(100 116 139/var(--tw-text-opacity));
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    margin-top: 0.25rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.bottom-content-cart-s {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.price-box-s {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.25rem;
+    --tw-border-opacity: 1;
+    border: solid 2px rgb(34 197 94/var(--tw-border-opacity));
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.text-green-s {
+    --tw-text-opacity: 1;
+    color: rgb(34 197 94/var(--tw-text-opacity));
+    line-height: 1 !important;
+}
+
+.ratting-box-s {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.125rem;
+}
+
+.svg-s {
+    --tw-text-opacity: 1;
+    color: rgb(251 191 36/var(--tw-text-opacity));
+    padding-bottom: 1px;
+    width: 1.6rem;
+    height: 1.6rem;
+    display: block;
+    vertical-align: middle;
+}
+
+.text-rat-p-s {
+    --tw-text-opacity: 1;
+    color: rgb(100 116 139/var(--tw-text-opacity));
+    font-size: 1.1rem;
+    line-height: 1.25rem;
+    margin-left: 0.25rem;
+}

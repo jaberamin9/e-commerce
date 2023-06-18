@@ -1,0 +1,119 @@
+.product-card {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 290px;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.img-box {
+    --tw-bg-opacity: 1;
+    background-color: rgb(248 250 252/var(--tw-bg-opacity));
+    border-radius: 1.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.img-re {
+    width: 100%;
+    height: 0;
+    display: flex;
+    position: relative;
+    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+    --tw-aspect-w: 11;
+    --tw-aspect-h: 12;
+}
+
+.img-cover {
+    object-fit: cover;
+    max-width: 100%;
+    display: block;
+    vertical-align: middle;
+}
+
+.bottom-content {
+    padding-top: 1.25rem;
+    padding-bottom: 0.625rem;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+}
+
+.top-content {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.product-card-title {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+.product-card-p {
+    --tw-text-opacity: 1;
+    color: rgb(100 116 139/var(--tw-text-opacity));
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin-top: 0.25rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.bottom-content-cart {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.price-box {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    --tw-border-opacity: 1;
+    border: solid 2px rgb(34 197 94/var(--tw-border-opacity));
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.text-green {
+    --tw-text-opacity: 1;
+    color: rgb(34 197 94/var(--tw-text-opacity));
+    line-height: 1 !important;
+}
+
+.ratting-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.125rem;
+}
+
+.svg {
+    --tw-text-opacity: 1;
+    color: rgb(251 191 36/var(--tw-text-opacity));
+    padding-bottom: 1px;
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    vertical-align: middle;
+}
+
+.text-rat-p {
+    --tw-text-opacity: 1;
+    color: rgb(100 116 139/var(--tw-text-opacity));
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    margin-left: 0.25rem;
+}
